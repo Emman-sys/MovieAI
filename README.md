@@ -1,11 +1,4 @@
-# MovieAI
-
-SVM Test Accuracy: 0.9201
-SVM Test Precision: 0.9281
-SVM Test Recall: 0.9587
-SVM Test F1-score: 0.9432
-
-Decision Tree Test Accuracy: 0.9623
-Decision Tree Test Precision: 0.9736
-Decision Tree Test Recall: 0.9719
-Decision Tree Test F1-score: 0.9727
+|index|Model|Test Accuracy|Test Precision|Test Recall|Test F1-score|Mean CV Accuracy|Std Dev CV Accuracy|
+|---|---|---|---|---|---|---|---|
+|0|SVM|0\.7718865598027127|0\.7956448911222781|0\.8828996282527881|0\.8370044052863436|0\.764103844471076|0\.00917934346949328|
+|1|Decision Tree|0\.7262638717632552|0\.795880149812734|0\.7899628252788105|0\.792910447761194|0\.713231657440697|0\.013040825939252734|
