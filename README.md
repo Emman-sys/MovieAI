@@ -1,3 +1,5 @@
+Goal of the models: Accurately and consistently predict if a movie will have a average rating of greater than 6 
+
 |index|Model|Test Accuracy|Test Precision|Test Recall|Test F1-score|Mean CV Accuracy|Std Dev CV Accuracy|
 |---|---|---|---|---|---|---|---|
 |0|SVM|0\.7718865598027127|0\.7956448911222781|0\.8828996282527881|0\.8370044052863436|0\.764103844471076|0\.00917934346949328|
