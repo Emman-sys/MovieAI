@@ -10,3 +10,25 @@ Dataset Link: https://www.kaggle.com/datasets/alessandrolobello/the-ultimate-fil
 Short highlights:
 - SVM achieves the best held-out test performance (Accuracy ≈ 0.772, F1 ≈ 0.837).
 - Decision Tree is competitive but shows lower generalization by cross-validation.
+
+## Project overview
+This repository trains and evaluates classifiers to predict whether a movie's average rating will exceed 6. It includes preprocessing, model training, cross-validation, and reporting of standard classification metrics.
+
+## Quick start / Usage
+- Clone the repo and install dependencies (typical Python stack: pandas, scikit-learn, joblib, etc.).
+- Place the downloaded Kaggle dataset in the data/ directory or update the data path in the notebook/script.
+- Run the training script or notebook to reproduce preprocessing and model runs:
+  - Example (from repo root): python train.py --data data/movies.csv
+  - Or open the provided notebook(s) for an interactive run.
+  - Note: the dataset included in this repository's data/ directory is already cleaned for the experiments — director_names entries with "-" were purged.
+
+## Evaluation summary
+- Primary metric used: F1-score (balance between precision and recall).
+- Cross-validation reported to evaluate generalization (mean and std dev shown above).
+- Best model on held-out test set: SVM (highest F1 and Accuracy in the table).
+
+## Contributing
+Contributions, bug reports and feature requests are welcome. Please open an issue or submit a PR with a clear description of changes.
+
+## License
+This project is released under the MIT License. See the LICENSE file for details.
