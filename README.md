@@ -16,7 +16,7 @@ This repository trains and evaluates classifiers to predict whether a movie's av
 
 ## Quick start / Usage
 - Clone the repo and install dependencies (typical Python stack: pandas, scikit-learn, joblib, etc.).
-- Place the downloaded Kaggle dataset in the data/ directory or update the data path in the notebook/script.
+- Place the downloaded Kaggle dataset in the data/ directory or update the data path in the notebook/script(I did this in Google Collab so for best results or if you dont feel like coding just upload the entire repo to your drive then get the path to the icluded dataset and edit the second cell).
 - Run the training script or notebook to reproduce preprocessing and model runs:
   - Example (from repo root): python train.py --data data/movies.csv
   - Or open the provided notebook(s) for an interactive run.
